@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "drf-filters-chain-experimentations"
+version = "0.1.0"
+description = ""
+authors = ["Vitor Azevedo <vitor.azevedo009@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "djangorestframework"
+djangorestframework = "django-filters"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.7"
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
